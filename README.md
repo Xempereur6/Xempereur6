@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Xempereur6
+U7- 👋 Hi, I’m @Xempereur6
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
@@ -14,9 +14,9 @@ from flask import Flask, request
 from pymessenger import Bot
 
 app = Flask(__name__)
-ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
-VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
-bot = Bot(ACCESS_TOKEN)
+ACCESS_TOKEN = os.environ['8dd63bb6cc50645d3441e3818cb0eebf']
+VERIFY_TOKEN = os.environ['https://www.facebook.com/profile.php?id=100080293788170&mibextid=ZbWKwL']
+bot = Bot(8dd63bb6cc50645d3441e3818cb0eebf)
 
 @app.route('/', methods=['GET'])
 def verify():

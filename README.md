@@ -16,7 +16,7 @@ from pymessenger import Bot
 app = Flask(__name__)
 ACCESS_TOKEN = os.environ['8dd63bb6cc50645d3441e3818cb0eebf']
 VERIFY_TOKEN = os.environ['https://www.facebook.com/profile.php?id=100080293788170&mibextid=ZbWKwL']
-bot = Bot(8dd63bb6cc50645d3441e3818cb0eebf)
+bot = Bot(https://www.facebook.com/profile.php?id=100084604641691&mibextid=ZbWKwL)
 
 @app.route('/', methods=['GET'])
 def verify():
